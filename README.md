@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,19 +19,23 @@
             color: #fff;
             padding: 20px;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         nav {
             background-color: #333;
             color: #fff;
-            padding: 10px;
             text-align: center;
+            padding: 10px 0;
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            padding: 10px;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
